@@ -17,7 +17,7 @@ import java.util.List;
 @Service
 public class ArticleService {
 
-     @Autowired
+    @Autowired
     private ArticleRepository repository;
 
     public Iterable <Article> findAll(){
